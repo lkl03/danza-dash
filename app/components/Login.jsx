@@ -67,11 +67,11 @@ export default function Login() {
           </div>
         </form>
         {loginError && <p className="text-center text-red-500">Las credenciales son inválidas.</p>}
-        <div className="text-center">
+        {/*<div className="text-center">
           <a href="#" className="text-sm text-[#211f1f] hover:underline transition-all ease-in-out">
             ¿Olvidaste tus datos?
           </a>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
